@@ -5,7 +5,7 @@ import(
 )
 
 type Order struct {
-  ClientOID string `json:"omitempty"`
+  ClientOID string `json:"client_oid,omitempty"`
   Id string `json:"id"`
   Size float64 `json:"size,string"`
   Price float64 `json:"price,string"`
